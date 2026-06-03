@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Tajawal', sans-serif; }
+body { background-color: #f4f7f6; padding: 20px; display: flex; justify-content: center; }
+.container { background: white; max-width: 600px; width: 100%; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+h2 { text-align: center; margin-bottom: 20px; }
+.back-link { display: inline-block; margin-bottom: 15px; text-decoration: none; font-weight: bold; }
+.input-row { display: flex; gap: 10px; margin-bottom: 20px; }
+.input-group { flex: 1; }
+label { display: block; margin-bottom: 5px; font-size: 13px; font-weight: bold; }
+input, select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; }
+.course-row { display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #f9f9f9; border-radius: 6px; margin-bottom: 8px; border: 1px solid #eee; }
+.course-name { flex: 2; font-size: 14px; }
+.course-grade { flex: 1; }
+.btn { width: 100%; color: white; border: none; padding: 12px; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 15px; }
+.result-box { display: none; margin-top: 20px; padding: 15px; background: #eef9f3; border: 1px solid #c3e6cb; border-radius: 8px; text-align: center; }
+.result-box h3 { font-size: 24px; margin-bottom: 5px; }
+.motivation { font-style: italic; color: #444; margin-top: 10px; font-size: 14px; }

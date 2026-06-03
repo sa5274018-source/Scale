@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة المعدل التقني - الرئيسية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="logo-icon">🎓</div>
+    <h1>حاسبة المعدل الإلكترونية</h1>
+    <p class="subtitle">الكلية التقنية بالليث - اختر قسمك التدريبي</p>
+
+    <a href="computer_prog.html" class="menu-btn prog-btn">💻 قسم تقنية البرمجيات</a>
+    <a href="mechanics.html" class="menu-btn mech-btn">🔧 قسم التقنية الميكانيكية</a>
+    <a href="office_management.html" class="menu-btn office-btn">💼 قسم الإدارة المكتبية</a>
+
+    <button class="dev-btn" onclick="openModal()">ℹ️ حول المطور والتطبيق</button>
+</div>
+
+<div id="devModal" class="modal">
+    <div class="modal-content">
+        <img src="my_photo.png" alt="صورة المطور" class="modal-img" onerror="this.src='https://via.placeholder.com/110?text=Your+Photo'">
+        <h3>معلومات المطور</h3>
+        <p><strong>الاسم:</strong> [اكتب اسمك الثلاثي هنا]</p>
+        <p><strong>التخصص:</strong> تقنية البرمجيات</p>
+        <p><strong>الكلية:</strong> الكلية التقنية بالليث</p>
+        <hr style="margin: 10px 0; border: 0; border-top: 1px solid #eee;">
+        <p style="font-size: 13px; color: #666;">تم تطوير هذا التطبيق كطلب عملي لتسهيل حساب المعدلات الفصلية والتراكمية بناءً على الخطة المعتمدة.</p>
+        <button class="close-btn" onclick="closeModal()">إغلاق</button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
